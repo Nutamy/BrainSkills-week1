@@ -1,11 +1,11 @@
 # Даны два целых числа. 
 # Выведите значение наименьшего из них.
 
-x = input()
-y = input()
+x = input("Type first integer pls ")
+y = input("Type second integer pls ")
 if x > y:
-    print(y)
+    print("min=",y)
 elif y > x:
-    print(x)
+    print("min=",x)
 else:
     print(x,"=",y)
