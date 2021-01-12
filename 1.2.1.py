@@ -1,9 +1,11 @@
 # Даны два целых числа. 
 # Выведите значение наименьшего из них.
 
-x = 7
-y = 9
+x = input()
+y = input()
 if x > y:
     print(y)
-else:
+elif y > x:
     print(x)
+else:
+    print(x,"=",y)
